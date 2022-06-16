@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- External: A CSS written in an external file and linked to HTML. -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- External: CSS using google font. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+
+    <title>Getting started with CSS3…</title>
+    <!-- Internal: CSS written in the HTML file enclosed by a <style> tag. -->
+    <style>
+        div {
+            border: 1px solid salmon;
+        }
+    </style>
+</head>
+<body>
+<h1>Getting Started with CSS 3 - Lecture Week 2</h1>
+
+    <h2>Linking CSS and HTML together…</h2>
+        <!-- Inline: CSS written as an attribute in the HTML element. -->
+        <div style="border: 1px solid rgb(170, 0, 0)">This has a border</div>
+        
+        <div>Internal CSS Example</div>
+
+        <hr>
+
+        <h2>CSS selectors and its types…</h2>
+        <ul>
+            <li>
+                CSS selectors are used to target HTML element that we want to style.
+            </li>
+            <li>
+                A selector is a component of CSS declaration.
+            </li>
+            <li>There are five varieties of CSS selectors.
+                <ol>
+                   <li>- CSS Universal Selector 
+                   <li>- CSS Element Selector</li>
+                   <li>- CSS ID Selector</li>
+                   <li>- CSS Class Selector</li>
+                   <li>- CSS Attribute Selector</li>
+                   </ol>
+
+            </li>
+        </ul>
+        
+<h3>1. Universal Selector</h3>
+<ul>
+<li> A universal selector selects all the elements in a web page. </li>
+<li> We can declare an universal selector with the help of an asterisk (*). </li>
+<li> Universal selectors can be used along with other selectors in combination but is highly discouraged to do it.</li>
+
+</ul>
+<code>
+    *{
+        color: blue;
+        font-size: 12px;
+    }
+    
+</code>
+
+
+
+
+</body>
+</html>
